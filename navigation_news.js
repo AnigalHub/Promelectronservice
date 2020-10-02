@@ -1,0 +1,35 @@
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        if(pageName =='news_all'){
+            tabcontent[i].style.display = "block";
+        }
+        else if(pageName =='news_2019'){
+            tabcontent[1].style.display = "block";
+            tabcontent[0].style.display = "none";
+            tabcontent[2].style.display = "none";
+            tabcontent[3].style.display = "none";
+        }
+        else if(pageName =='news_2018'){
+            tabcontent[2].style.display = "block";
+            tabcontent[0].style.display = "none";
+            tabcontent[1].style.display = "none";
+            tabcontent[3].style.display = "none";
+        }
+        else if(pageName =='news_2017'){
+            tabcontent[3].style.display = "block";
+            tabcontent[0].style.display = "none";
+            tabcontent[1].style.display = "none";
+            tabcontent[2].style.display = "none";
+        }
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();

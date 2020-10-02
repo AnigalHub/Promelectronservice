@@ -1,0 +1,1366 @@
+@charset "UTF-8";
+.navbar {
+  background: linear-gradient(to right, #1b293b, #1b2936, #143722, #0a3818) !important;
+}
+
+.navbar .dropdown-menu {
+  background: linear-gradient(to right, #1b293b, #1b2936, #143722, #0a3818) !important;
+}
+
+.fon_5 {
+  background: linear-gradient(to top right, rgba(34, 56, 71, 0.6), rgba(26, 54, 65, 0.58), rgba(17, 51, 71, 0.6));
+  width: 100%;
+  max-height: 100%;
+  min-height: 100vh;
+  padding-left: 5%;
+  padding-right: 4%;
+  padding-bottom: 10%;
+  height: auto;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+#company_connection button {
+  background: #3a3a3a;
+  padding: 5px;
+  border: 2px solid white;
+  color: white;
+}
+
+#company_connection button:hover {
+  background: #e0e0e0;
+  padding: 5px;
+  border: 2px solid black;
+  color: black;
+}
+
+h2 {
+  padding-top: 3%;
+  cursor: default;
+  padding-bottom: 1%;
+  font-weight: 600 !important;
+  text-align: center;
+  font-size: 23px;
+  font-family: "Exo 2", sans-serif;
+  color: white;
+}
+
+h3 {
+  padding-top: 1%;
+  cursor: default;
+  font-weight: 600 !important;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 2%;
+  font-family: "Exo 2", sans-serif;
+  text-decoration: underline;
+}
+
+.text {
+  padding-bottom: 1%;
+  font-size: 20px;
+  cursor: default;
+  line-height: 35px;
+  font-family: "Exo 2", sans-serif;
+  color: white;
+}
+
+video {
+  position: absolute;
+  right: 0;
+  max-height: 100%;
+  min-height: 100vh;
+  object-fit: cover;
+  z-index: -10000;
+  width: 100%;
+}
+
+.inscription {
+  font-family: "Exo 2", sans-serif;
+  font-size: 48px;
+  right: 5%;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  font-weight: 500;
+  color: white;
+  opacity: 0.6;
+  line-height: 75px;
+  text-shadow: 2px 2px 4px #080909;
+}
+
+.main_points {
+  letter-spacing: 2px;
+  padding-top: 5%;
+  font-family: "Exo 2", sans-serif;
+  font-size: 23px;
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  right: 7%;
+  color: white;
+  opacity: 0.6;
+  text-shadow: 2px 2px 4px #080909;
+}
+.main_points .part {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.main_points .part .col {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
+
+#company_promelectronservice {
+  background: #ffffff;
+  max-height: 100%;
+  min-height: 100vh;
+}
+
+#data_company {
+  max-height: 100%;
+  height: auto;
+  background: url(../image/index/background/block_2.JPG) 100% 100% no-repeat;
+  /* Добавляем фон */
+  background-size: 100% 100%;
+  /* Масштабируем фон */
+}
+
+#work_stages {
+  background: linear-gradient(to top right, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.83), rgba(25, 25, 25, 0.84));
+  max-height: 100%;
+  height: auto;
+}
+
+#contact_information {
+  max-height: 100%;
+  height: auto;
+  background: url(../image/index/background/block_2.JPG) 100% 100% no-repeat;
+  /* Добавляем фон */
+  background-size: 100% 100%;
+  /* Масштабируем фон */
+  color: white;
+  border-bottom: 2px solid #3a3a3a;
+}
+
+#company_connection {
+  max-height: 100%;
+  height: auto;
+  background: url(../image/index/background/block_6.jpg) 100% 100% no-repeat;
+  /* Добавляем фон */
+  background-size: 100% 100%;
+  /* Масштабируем фон */
+  color: white;
+  border-top: 2px solid #3a3a3a;
+}
+#company_connection a {
+  color: white;
+  font-family: "Exo 2", sans-serif;
+}
+#company_connection a:hover {
+  color: #c0c0c0;
+  text-decoration: none;
+  font-weight: 600 !important;
+}
+
+.fon {
+  background-color: rgba(10, 10, 10, 0.7);
+  width: 100%;
+  max-height: 100%;
+  min-height: 100vh;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-right: 4%;
+  padding-bottom: 5%;
+  height: auto;
+}
+
+.fon_2 {
+  background-color: rgba(10, 10, 10, 0.7);
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+.fon_3 {
+  background-color: rgba(10, 10, 10, 0.7);
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+#data_promelectronservice {
+  height: 85vh;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 5% !important;
+}
+
+.carousel-indicators {
+  margin-bottom: -5%;
+}
+
+.column_1 {
+  width: 25%;
+  padding-left: 7%;
+  text-align: center;
+}
+
+.column_2 {
+  width: 75%;
+  padding-top: 2%;
+  padding-right: 5%;
+}
+
+.year {
+  font-size: 20px;
+  font-family: "Exo 2", sans-serif;
+  color: white;
+  margin-top: -7%;
+}
+
+.number_year {
+  font-size: 90px;
+  font-family: "Exo 2", sans-serif;
+  color: white;
+}
+
+.place_for_data {
+  height: 24vh;
+}
+
+.place_for_information {
+  height: 50%;
+  padding: 1.5vh 7%;
+}
+
+.place_for_part_information {
+  margin-bottom: 2% !important;
+}
+
+.name_information {
+  border-radius: 10px;
+  border: 2px solid white;
+  height: 33vh;
+  margin: 0 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block_step {
+  padding: 0 13% 0 13%;
+}
+
+.step_header {
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+  display: block;
+  color: white;
+}
+
+.item g {
+  fill: #ffffff;
+}
+
+.item {
+  padding-top: 2%;
+}
+
+/* цвет иконки при наведении*/
+.item:hover g {
+  fill: #2dd5ff;
+}
+
+/* цвет иконки при нажатии*/
+.active g {
+  fill: #36ff78;
+}
+
+/* цвет текста при нажатии*/
+.active .item-header {
+  opacity: 100%;
+  color: #36ff78;
+}
+
+/* цвет текста при наведении*/
+.item:hover .item-header {
+  color: #2dd5ff;
+}
+
+svg {
+  margin-left: 25%;
+}
+
+.col-3 {
+  padding-right: 1% !important;
+  padding-left: 1% !important;
+}
+
+.item-header {
+  width: 100%;
+  padding-right: 5%;
+  font-weight: 600 !important;
+  font-size: 20px;
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.item-content {
+  width: 100%;
+}
+
+#work_stages p {
+  margin-bottom: 0 !important;
+}
+#work_stages svg {
+  width: 100px;
+  height: 120px;
+}
+
+.main_points svg {
+  width: 64px;
+  height: 64px;
+}
+
+#mess {
+  min-height: 155px;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 4%;
+  line-height: 45px;
+  font-family: "Exo 2", sans-serif;
+  width: 100%;
+  padding-bottom: 0 !important;
+  color: white;
+}
+
+.magic-text span {
+  opacity: 0;
+  transform: translateY(3.5px);
+  transition: all 0.35ms ease-out;
+}
+.magic-text span.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.container-inner {
+  display: flex;
+  height: 52vh;
+  max-width: 100%;
+}
+
+.section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  transition: flex 0.4s ease;
+  position: relative;
+}
+
+.section a {
+  color: white;
+  font-family: "Exo 2", sans-serif;
+}
+.section a:hover {
+  color: white;
+  text-decoration: underline;
+  font-weight: 600 !important;
+}
+
+.section .overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: background-color 0.8s ease;
+}
+
+.section .content {
+  z-index: 1;
+  text-align: center;
+}
+
+.section:hover {
+  flex: 2;
+}
+
+.section:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.67);
+}
+
+.feature.map iframe {
+  height: 86vh;
+  width: 100%;
+  border: 0;
+  filter: brightness(70%);
+}
+
+.cart_information {
+  height: auto;
+  max-height: 100%;
+  color: white;
+  box-shadow: 5px 0 0.5em grey, -5px 0 0.5em grey;
+  margin-right: 2%;
+  margin-top: 1.5%;
+  margin-left: 3%;
+  margin-bottom: 2%;
+}
+
+.information {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.paragraph_information {
+  padding-left: 20%;
+  margin-bottom: 6%;
+}
+
+.communication {
+  color: white;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  margin-left: 1%;
+  margin-right: 2%;
+  padding-left: 5%;
+  margin-top: 1.5%;
+  margin-bottom: 2%;
+  box-shadow: 5px 0 0.5em grey, -5px 0 0.5em grey;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 15px;
+}
+
+.form-group input.form-control {
+  height: auto;
+}
+
+.form-group textarea.form-control {
+  height: 270px;
+}
+
+.form-control:focus {
+  border-color: #4076ea;
+  box-shadow: none;
+}
+
+#contact::-webkit-input-placeholder {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbb;
+}
+
+#contact:-moz-placeholder {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbb;
+}
+
+#contact:-ms-input-placeholder {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbb;
+}
+
+div#contact .text-danger {
+  color: #e74c3c;
+}
+
+.confidentiality {
+  font-size: 17px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 500;
+}
+
+.flex {
+  display: flex;
+}
+
+@media screen and (max-width: 350px) {
+  video {
+    object-fit: cover;
+  }
+
+  .h2, h2 {
+    font-size: 1.5rem !important;
+    padding-top: 14%;
+  }
+
+  .h3, h3 {
+    font-size: 1.2rem !important;
+  }
+
+  .text {
+    font-size: 13px !important;
+    line-height: 20px !important;
+  }
+
+  #mess {
+    line-height: 17px !important;
+  }
+
+  .confidentiality {
+    font-size: 13px !important;
+    line-height: 15px !important;
+  }
+
+  #data_company .text {
+    font-size: 13px !important;
+    line-height: 15px !important;
+  }
+
+  .place_for_data .row {
+    flex-direction: column;
+  }
+
+  .item-header {
+    font-size: 12px;
+    line-height: 18px !important;
+  }
+
+  .block_step {
+    padding: 0;
+  }
+
+  .main_points svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  #work_stages .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #work_stages .col {
+    max-width: 100%;
+    flex: 0 0 20% !important;
+    padding-right: 10px !important;
+    padding-left: 5px !important;
+  }
+
+  #work_stages svg {
+    width: 50px;
+    height: 50px;
+    margin-left: 15%;
+  }
+
+  .container-inner {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+  }
+
+  .inscription {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .main_points {
+    letter-spacing: -0.05px;
+    padding-top: 5%;
+    display: block;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    right: 7%;
+    color: white;
+    opacity: 0.6;
+    text-shadow: 2px 2px 4px #080909;
+  }
+
+  .main_points .col {
+    padding-right: 10px !important;
+    padding-left: 0 !important;
+  }
+  .main_points .col .name_point {
+    font-size: 10px !important;
+    line-height: 10px;
+    text-align: center;
+  }
+
+  .carousel-indicators {
+    bottom: -60px !important;
+  }
+
+  #data_promelectronservice {
+    height: 85vh;
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    width: 5% !important;
+  }
+
+  .carousel-indicators {
+    margin-bottom: -5%;
+  }
+
+  .column_1 {
+    width: 100%;
+    padding-left: 4%;
+    text-align: center;
+  }
+
+  .column_2 {
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center !important;
+  }
+
+  .year {
+    font-size: 13px;
+    padding-top: 1.5%;
+  }
+
+  .number_year {
+    font-size: 30px;
+  }
+
+  .place_for_data {
+    height: auto;
+  }
+
+  .place_for_data:last-child {
+    margin-top: 0 !important;
+  }
+
+  .place_for_information {
+    padding: 0 !important;
+    height: 37vh;
+  }
+
+  .name_information {
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 36.5vh;
+    margin: 0 1% 2%;
+    display: block;
+    padding-top: 3%;
+  }
+
+  .form-group textarea.form-control {
+    height: 165px !important;
+  }
+
+  .form-group input, .form-group textarea {
+    padding: 7px;
+  }
+
+  #company_connection .flex {
+    flex-direction: column;
+    padding: 0 5%;
+  }
+  #company_connection .flex .cart_information {
+    margin-left: 0 !important;
+    min-height: 58vh;
+    margin-right: 0 !important;
+  }
+  #company_connection .flex .information {
+    top: 55% !important;
+  }
+  #company_connection .flex .col-8 {
+    max-width: 100%;
+    flex: 0 0 auto !important;
+  }
+  #company_connection .flex .col-md-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  #company_connection .flex .communication {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  #company_connection .flex .sentMessage {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  video {
+    object-fit: cover;
+  }
+
+  .form-control {
+    font-size: 0.7rem !important;
+  }
+
+  .h2, h2 {
+    font-size: 1.5rem !important;
+    padding-top: 14%;
+  }
+
+  .h3, h3 {
+    font-size: 1.2rem !important;
+  }
+
+  .text {
+    font-size: 13px !important;
+    line-height: 15.5px !important;
+  }
+
+  #mess {
+    line-height: 20px !important;
+  }
+
+  .confidentiality {
+    font-size: 13px !important;
+    line-height: 15px !important;
+  }
+
+  .important_row {
+    flex-direction: column;
+  }
+  .important_row .two_part {
+    padding-top: 4%;
+  }
+
+  #data_company .text {
+    font-size: 13px !important;
+    line-height: 17.5px !important;
+  }
+
+  .item-header {
+    font-size: 12px;
+    line-height: 18px !important;
+  }
+
+  .block_step {
+    padding: 0;
+  }
+
+  #work_stages .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #work_stages .col {
+    max-width: 100%;
+    flex: 0 0 20% !important;
+    padding-left: 15px !important;
+    padding-right: 0 !important;
+  }
+
+  #work_stages svg {
+    width: 50px;
+    height: 50px;
+    margin-left: 15%;
+  }
+
+  .container-inner {
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+  }
+
+  .inscription {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .main_points {
+    letter-spacing: -0.05px;
+    padding-top: 5%;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    right: 7%;
+    color: white;
+    opacity: 0.6;
+    text-shadow: 2px 2px 4px #080909;
+  }
+
+  .main_points .col {
+    padding-right: 10px !important;
+    padding-left: 0 !important;
+  }
+  .main_points .col .name_point {
+    font-size: 10px !important;
+    text-align: center;
+    line-height: 10px;
+  }
+
+  .carousel-indicators {
+    bottom: -60px !important;
+  }
+
+  #data_promelectronservice {
+    height: 85vh;
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    width: 5% !important;
+  }
+
+  .carousel-indicators {
+    margin-bottom: -5%;
+  }
+
+  .column_1 {
+    width: 30%;
+    padding-left: 4%;
+    text-align: center;
+  }
+
+  .column_2 {
+    width: 70%;
+    padding-top: 2%;
+    padding-right: 5%;
+  }
+
+  .year {
+    font-size: 13px;
+  }
+
+  .number_year {
+    font-size: 30px;
+  }
+
+  .place_for_data {
+    height: 26vh;
+  }
+
+  .name_information {
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 34vh;
+    margin: 0 2%;
+    display: block;
+    padding-top: 3%;
+  }
+
+  .place_for_information {
+    padding: 0 !important;
+  }
+
+  .form-group textarea.form-control {
+    height: 165px !important;
+  }
+
+  .form-group input, .form-group textarea {
+    padding: 7px;
+  }
+
+  #company_connection .flex {
+    flex-direction: column;
+    padding: 0 5%;
+  }
+  #company_connection .flex .cart_information {
+    margin-left: 0 !important;
+    min-height: 40vh;
+    margin-right: 0 !important;
+  }
+  #company_connection .flex .col-8 {
+    max-width: 100%;
+    flex: 0 0 auto !important;
+  }
+  #company_connection .flex .communication {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  #company_connection .flex .col-md-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  #company_connection .flex .sentMessage {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  video {
+    object-fit: cover;
+  }
+
+  .form-control {
+    font-size: 0.7rem !important;
+  }
+
+  .h2, h2 {
+    font-size: 1.5rem !important;
+    padding-top: 10%;
+  }
+
+  .h3, h3 {
+    font-size: 1.2rem !important;
+  }
+
+  .text {
+    font-size: 13px !important;
+    line-height: 20px !important;
+  }
+
+  .confidentiality {
+    font-size: 13px !important;
+    line-height: 15px !important;
+  }
+
+  .important_row {
+    flex-direction: column;
+  }
+  .important_row .two_part {
+    padding-top: 4%;
+  }
+
+  .item-header {
+    font-size: 13px;
+    line-height: 12px;
+  }
+
+  #work_stages .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #work_stages .col {
+    max-width: 100%;
+    flex: 0 0 20% !important;
+    padding-left: 15px !important;
+    padding-right: 0 !important;
+  }
+
+  #work_stages svg {
+    width: 60px;
+    height: 60px;
+    margin-left: 15%;
+  }
+
+  .block_step {
+    padding: 0 8% 0 8%;
+  }
+
+  .container-inner {
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+  }
+
+  .inscription {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .main_points {
+    letter-spacing: 2px;
+    padding-top: 5%;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    right: 7%;
+    color: white;
+    opacity: 0.6;
+    text-shadow: 2px 2px 4px #080909;
+  }
+
+  .main_points .col {
+    padding-right: 10px !important;
+    padding-left: 0 !important;
+  }
+  .main_points .col .name_point {
+    font-size: 15px !important;
+    text-align: center;
+    line-height: 15px;
+  }
+
+  .column_1 {
+    width: 30%;
+    padding-left: 4%;
+    text-align: center;
+  }
+
+  .column_2 {
+    width: 70%;
+    padding-top: 2%;
+    padding-right: 5%;
+  }
+
+  .year {
+    font-size: 13px;
+  }
+
+  .number_year {
+    font-size: 50px;
+  }
+
+  .place_for_data {
+    height: 26vh;
+  }
+
+  .name_information {
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 33vh;
+    margin: 0 2%;
+    display: block;
+    padding-top: 3%;
+  }
+
+  #company_connection .flex {
+    flex-direction: column;
+    padding: 0 5%;
+  }
+  #company_connection .flex .cart_information {
+    min-height: 45vh !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  #company_connection .flex .col-8 {
+    max-width: 100%;
+    flex: 0 0 auto !important;
+  }
+  #company_connection .flex .communication {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  video {
+    object-fit: cover;
+  }
+
+  .form-control {
+    font-size: 0.7rem !important;
+  }
+
+  .h2, h2 {
+    font-size: 1.8rem !important;
+    padding-top: 8%;
+  }
+
+  .h3, h3 {
+    font-size: 1.5rem !important;
+  }
+
+  .text {
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+
+  .confidentiality {
+    font-size: 15px !important;
+    line-height: 15px !important;
+  }
+
+  .important_row {
+    flex-direction: column;
+  }
+  .important_row .two_part {
+    padding-top: 4%;
+  }
+
+  .item-header {
+    font-size: 15px;
+  }
+
+  #work_stages .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #work_stages .col {
+    max-width: 100%;
+    flex: 0 0 20% !important;
+  }
+
+  #work_stages svg {
+    width: 70px;
+    height: 70px;
+    margin-left: 15%;
+  }
+
+  .container-inner {
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+  }
+
+  .block_step {
+    padding: 0 10% 0 10%;
+  }
+
+  .column_1 {
+    width: 30%;
+    padding-left: 4%;
+    text-align: center;
+  }
+
+  .column_2 {
+    width: 70%;
+    padding-top: 2%;
+    padding-right: 5%;
+  }
+
+  .year {
+    font-size: 13px;
+  }
+
+  .number_year {
+    font-size: 60px;
+  }
+
+  .place_for_data {
+    height: 26vh;
+  }
+
+  .name_information {
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 33vh;
+    margin: 0 2%;
+    display: block;
+    padding-top: 3%;
+  }
+
+  .inscription {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .name_point {
+    font-size: 15px !important;
+    text-align: center;
+    line-height: 15px;
+  }
+
+  #company_connection .flex {
+    flex-direction: column;
+    padding: 0 5%;
+  }
+  #company_connection .flex .cart_information {
+    margin-left: 0 !important;
+    min-height: 35vh !important;
+    margin-right: 0 !important;
+  }
+  #company_connection .flex .col-8 {
+    max-width: 100%;
+    flex: 0 0 auto !important;
+  }
+  #company_connection .flex .communication {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+@media screen and (max-height: 760px) {
+  .carousel-indicators {
+    display: none !important;
+  }
+
+  #mess {
+    min-height: 105px !important;
+  }
+}
+@media screen and (max-height: 760px) and (orientation: landscape) {
+  .main_points {
+    top: 50% !important;
+  }
+
+  .main_points .col .name_point {
+    font-size: 12px !important;
+  }
+
+  .place_for_information {
+    padding: 1.5vh 3% !important;
+  }
+
+  .block_step {
+    margin-bottom: 5% !important;
+  }
+
+  .h2, h2 {
+    padding-top: 3%;
+  }
+
+  .container-inner {
+    height: 100vh !important;
+  }
+
+  .paragraph_information {
+    margin-bottom: 0 !important;
+  }
+}
+@media screen and (max-height: 500px) {
+  .number_year {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  video {
+    object-fit: cover;
+  }
+
+  .h2, h2 {
+    font-size: 1.8rem !important;
+    padding-top: 6%;
+  }
+
+  .h3, h3 {
+    font-size: 1.5rem !important;
+  }
+
+  .text {
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+
+  .confidentiality {
+    font-size: 15px !important;
+    line-height: 15px !important;
+  }
+
+  .item-header {
+    font-size: 15px;
+  }
+
+  #work_stages .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #work_stages .col {
+    max-width: 100%;
+    flex: 0 0 20% !important;
+  }
+
+  #work_stages svg {
+    width: 80px;
+    height: 80px;
+    margin-left: 15%;
+  }
+
+  .container-inner {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .block_step {
+    height: 20vh;
+  }
+
+  .column_1 {
+    width: 30%;
+    padding-left: 4%;
+    text-align: center;
+  }
+
+  .column_2 {
+    width: 70%;
+    padding-top: 2%;
+    padding-right: 5%;
+  }
+
+  .year {
+    font-size: 13px;
+  }
+
+  .number_year {
+    font-size: 75px;
+  }
+
+  .place_for_data {
+    height: 26vh;
+  }
+
+  .name_information {
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 33vh;
+    margin: 0 2%;
+    display: block;
+    padding-top: 3%;
+  }
+
+  .inscription {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .name_point {
+    font-size: 15px !important;
+    text-align: center;
+    line-height: 15px;
+  }
+
+  #company_connection .flex {
+    flex-direction: column;
+    padding: 0 5%;
+  }
+  #company_connection .flex .cart_information {
+    margin-left: 0 !important;
+    min-height: 45vh !important;
+    margin-right: 0 !important;
+  }
+  #company_connection .flex .col-8 {
+    max-width: 100%;
+    flex: 0 0 auto !important;
+  }
+  #company_connection .flex .communication {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  #company_connection .flex .information {
+    top: 55%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .h2, h2 {
+    font-size: 1.8rem !important;
+    padding-top: 5%;
+  }
+
+  .h3, h3 {
+    font-size: 1.5rem !important;
+  }
+
+  .text {
+    font-size: 18px !important;
+    line-height: 30px !important;
+  }
+
+  .confidentiality {
+    font-size: 17px !important;
+    line-height: 20px !important;
+  }
+
+  .item-header {
+    font-size: 18px;
+  }
+
+  .name_point {
+    font-size: 18px !important;
+    text-align: center;
+    line-height: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

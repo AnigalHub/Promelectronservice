@@ -1,0 +1,1 @@
+$(function() {Stickyfill.add($('.sticky-top'))});

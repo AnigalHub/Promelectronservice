@@ -1,0 +1,1283 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.row{
+  margin: 0 !important;
+}
+.text{
+  padding-bottom: 1%;
+  cursor: default;
+  font-size: 20px;
+  line-height: 35px;
+  font-family: 'Exo 2', sans-serif;
+}
+#equipment_5{
+  display: none;
+}
+.introductory_text{
+  text-decoration: underline;
+}
+.part_photo{
+  .photo{
+    max-width: 33% !important;
+  }
+}
+.minor_text{
+  padding-bottom: 1%;
+  cursor: default;
+  font-size: 19px;
+  line-height: 25px;
+  font-family: 'Exo 2', sans-serif;
+}
+.text_table{
+  cursor: default;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: 'Exo 2', sans-serif;
+}
+.flex_backwards{
+  margin-bottom: 2% !important;
+}
+#control,#additional,#certification,#climate,#mechanical{
+  background: #fff;
+  max-height: 100%;
+  height: auto;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 4%;
+  padding-bottom: 5%;
+}
+.equipment{
+  position:relative;
+}
+.name_equipment{
+  font-weight: 700;
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(255,255,255, 0.9);
+  text-align: center;
+  padding:20px;
+  display:none;
+}
+.equipment:hover .name_equipment{
+  display:block;
+}
+#services_laboratory {
+  background: #fff;
+  max-height: 100%;
+  height: auto;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-right: 4%;
+  padding-bottom: 5%;
+}
+
+#about_laboratory,#control_tests,#additional_tests,#certification_tests,#climate_tests,#mechanical_tests{
+  max-height: 100%;
+  height: auto;
+  padding-left: 5%;
+  padding-top: 300px;
+  padding-right: 4%;
+  padding-bottom:300px;
+  background: #f6f6f6;
+  h2{
+    text-align: left;
+    margin-top: 6%;
+    font-family: 'Exo 2', sans-serif;
+    padding-bottom: 2%;
+    color: #316082;
+    font-weight: 400 !important;
+  }
+}
+#control_tests,#additional_tests,#certification_tests,#climate_tests,#mechanical_tests{
+  position: relative;
+  a{
+    font-weight: 500;
+    color: #007bff;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #003d7b;
+    font-weight: 500;
+  }
+}
+h2
+{
+  color: #316082;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  cursor: default;
+  font-weight: 600 !important;
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Exo 2', sans-serif;
+}
+h3
+{
+  text-align: center;
+  cursor: default;
+  padding-bottom: 1%;
+  font-weight: 600 !important;
+  font-size: 23px;
+  font-family: 'Exo 2', sans-serif;
+}
+h4{
+  text-align: center;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  font-weight: 600 !important;
+  text-decoration: underline;
+  cursor: default;
+  font-family: 'Exo 2', sans-serif;
+}
+#table_climat .carousel-inner,#table_climat2 .carousel-inner{
+  box-shadow: none !important;
+}
+#klimat h4,#mechanical h4{
+  margin-top: 2% !important;
+}
+h5{
+  text-align: center;
+  cursor: default;
+  font-weight: 600 !important;
+  font-family: 'Exo 2', sans-serif;
+}
+#about_laboratory .place_for_img_lab{
+  padding: 2% 0 2% 0;
+}
+#about_laboratory img{
+  width: 100%;
+  min-height:170px;
+  max-height: 500px;
+}
+#services_laboratory a{
+  color: black;
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+#services_laboratory .photo{
+  box-shadow: 1px 0 .2em #dcdcdc, -1px 0 .2em #dcdcdc;
+  background: white;
+  margin: 5px;
+  img{
+    padding: 5% 1% 2%;
+  }
+}
+.column_1{
+  flex:0 0 auto !important;
+  .photo{
+    margin-left: 1%;
+  }
+}
+.column_2{
+  flex:0 0 auto !important;
+  .photo{
+    margin-left: 1.5%;
+  }
+}
+#services_laboratory .photo:hover{
+  box-shadow: 6px 0 .6em #919191, -6px 0 .6em #919191;
+}
+#services_laboratory img{
+  width: 100%;
+}
+#services_laboratory li {
+  cursor: default;
+  font-family: 'Exo 2', sans-serif;
+  list-style-type: none;
+  padding-top: 1%;
+}
+#services_laboratory li:before {
+  content: "—";
+}
+#control_tests li{
+  padding-top: 2.5%;
+  font-size: 20px;
+  line-height: 35px;
+  cursor: default;
+  font-family: 'Exo 2', sans-serif;
+}
+.column_1{
+  width: 60%;
+  margin-bottom: 1%;
+}
+.column_2{
+  width: 40%;
+  margin-bottom: 2.5%;
+}
+#services_laboratory h5{
+  height: 40px;
+}
+.stages{
+  font-weight: 600 !important;
+}
+#control,
+#additional,
+#certification,#climate,
+#mechanical {
+  .card-link {
+    color: black;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700 !important;
+    font-family: 'Exo 2', sans-serif;
+    opacity: 1 !important;
+  }
+}
+.card-header{
+  background: rgba(49, 115, 129, 0.1) !important;
+  border: 2px solid rgba(47, 101, 115, 0.36);
+  border-radius:10px;
+  cursor: default;
+  font-family: 'Exo 2', sans-serif;
+}
+.card-header:hover{
+ color: rgba(18, 49, 186, 0.81);
+}
+#equipment_1,#equipment_2,#equipment_3,#equipment_4,#equipment_5{
+  padding-top: 1.5%;
+  .card-header{
+    background: rgba(100, 100, 100, 0.13) !important;
+    border: none !important;
+    text-align: center !important;
+  }
+  .card-link{
+    font-weight: 600 !important;
+    text-decoration: underline;
+  }
+  .card-header:hover{
+    color: black;
+  }
+  .card-body{
+    border: none !important;
+  }
+}
+#control_tests,
+#additional_tests, #certification_tests ,
+#climate_tests,
+#mechanical_tests {
+  .card-body {
+    border: 2px solid rgba(47, 101, 115, 0.36);
+    border-radius: 0 0 10px 10px;
+  }
+}
+video {
+  width: 100%;
+  box-shadow: 7px 7px 5px #606060;
+  background: white;
+  display: flex;
+  align-items: center;
+ position: relative !important;
+}
+@media screen and (min-width: 1700px){
+  video{
+  //  min-height: 420px !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px){
+ #services_laboratory{
+   .part_photo{
+     img{
+       min-height: 90px;
+     }
+   }
+ }
+}
+.trial{
+  width: 100%;
+  color: #000000;
+  padding-bottom: 3%;
+}
+#climate{
+  .text{
+    padding: .5%;
+    font-size: 19px;
+    line-height: 32px;
+    font-family: 'Exo 2', sans-serif;
+  }
+}
+  .col-8{
+    margin-right: auto;
+    margin-left: auto;
+  }
+#certification{
+  .col-5{
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+#control_tests,
+#additional_tests, #certification_tests ,
+#climate_tests,
+#mechanical_tests {
+  .card-body {
+    padding: 1rem !important;
+  }
+  .card-body .row {
+    display: flex;
+  }
+}
+#place_for_activities,#place_for_activities_2{
+  display: flex;
+}
+.place_for_list{
+  font-size: 20px;
+  font-family: 'Exo 2', sans-serif;
+}
+.place_for_image_list{
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+.klimat_paragraph{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+li{
+  list-style: none;
+}
+#certification ul{
+  padding-top: 5%;
+  padding-left: 0 !important;
+}
+#certification li{
+  border-bottom: 1px solid #c7c7c7;
+  margin-bottom: 1px;
+  line-height: 35px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  margin-right: 20px;
+}
+#certification li:hover{
+  cursor: default;
+}
+#climate .card-header {
+  padding: .5rem 1rem !important;
+}
+.carousel-inner img {
+  width: 100%;
+  max-height: 78vh;
+  height: auto;
+  padding: 3%;
+}
+table{
+width: 100%;
+}
+.name_table{
+  text-align: center;
+  font-weight: 700;
+}
+td {
+ border: 1px solid #c6c6c6;
+ font-family: 'Exo 2', sans-serif;
+ padding: 2.5px;
+}
+tr:hover{
+  cursor: default;
+ background: rgba(81, 174, 201, 0.1);
+}
+.container-fluid td:nth-child(2),.container-fluid td:nth-child(4) {
+  text-align: center;
+}
+.carousel-inner{
+  box-shadow: 10px 10px 20px #c7c7c7, 0 0 10em #c7c7c7, 0 0 0.9em #c7c7c7 !important;
+}
+.carousel-indicators{
+  bottom: -2% !important;
+}
+.carousel-indicators li{
+  background: black !important;
+  border-top: 0 solid transparent !important;
+  border-bottom: 0 solid transparent !important;
+}
+.carousel-control-prev-icon{
+  display: none !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23a3a3a3' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e") !important;
+}
+.carousel-control-next-icon{
+  display: none !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23a3a3a3' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e") !important;
+}
+.carousel-control-prev-icon:hover{
+  display: none !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e") !important;
+}
+.carousel-control-next-icon:hover{
+  display: none !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e") !important;
+}
+.carousel-control-next, .carousel-control-prev{
+  width: 4% !important;
+}
+#table_climat{
+  .carousel-control-prev-icon{
+    display:block !important;
+  }
+  .carousel-control-next-icon{
+    display: block!important;
+  }
+  .carousel-control-prev-icon:hover{
+    display: block !important;
+  }
+  .carousel-control-next-icon:hover{
+    display: block !important;
+  }
+}
+.row_list{
+  padding-bottom: 1%;
+}
+
+@media screen and (max-width: 450px){
+  #control_tests,
+  #additional_tests, #certification_tests ,
+  #climate_tests,
+  #mechanical_tests{
+    padding-top: 28% !important;
+  }
+  #services_laboratory img{
+    min-height: 45px;
+  }
+  .container-fluid td:nth-child(2),.container-fluid td:nth-child(4) {
+   max-width: 10px;
+  }
+  .container-fluid td:nth-child(1),.container-fluid td:nth-child(3) {
+    max-width: 20px;
+  }
+  .services{
+    flex: 0 0 auto !important;
+  }
+  #services_laboratory li {
+    padding-top: 0 !important;
+  }
+  .trial{
+    opacity: 1;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+  }
+  .trial{
+    .text{
+      bottom: 0 !important;
+    }
+  }
+  .flex_backwards{
+    flex-direction: column;
+    .col-8,.col-9,.col-6,.col-7{
+      max-width: 100%;
+      flex:0 0 auto !important;
+    }
+    .equipment{
+      width: 25% !important;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .complex{
+      width: 65% !important;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  .equipment,.img_carousel,.complex{
+    flex:0 0 auto !important;
+  }
+  .flex {
+    flex-direction: column-reverse;
+    align-items: center;
+
+    .img_carousel {
+      max-width: 100% !important;
+      padding-bottom: 2%;
+    }
+    .col-7{
+      max-width: 100% !important;
+      flex:0 0 auto !important;
+    }
+  }
+  .equipment:hover .name_equipment{
+    display:none !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .services{
+    flex: 0 0 auto !important;
+  }
+  #services_laboratory{
+    .col-6, .row_list .col{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+  #control_tests,
+  #additional_tests, #certification_tests,
+  #climate_tests,
+  #mechanical_tests{
+    .col,.col-7{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      flex: 0 0 auto !important;
+    }
+  }
+  #control,#additional,#climate,#mechanical{
+    .col,.col-7{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+  #services_laboratory img{
+    min-height: 70px;
+  }
+  .h2, h2 {
+    font-size: 1.5rem !important;
+  }
+  #control_tests,
+  #additional_tests, #certification_tests ,
+  #climate_tests,
+  #mechanical_tests{
+    padding-top: 22%;
+    padding-bottom: 22%;
+  }
+  #control h2,
+  #additional h2,
+  #certification h2,#climate h2,
+  #mechanical h2{
+    padding-top: 24%;
+  }
+  #control_tests,#additional_tests,#certification_tests,#climate_tests,#mechanical_tests{
+    h2{
+      margin-top: 0 !important;
+      padding-top: 3% !important;
+    }
+  }
+  .h3, h3 {
+    font-size: 1rem !important;
+  }
+  .h4, h4 {
+    font-size: 1rem !important;
+  }
+  .h5, h5 {
+    font-size: .4rem !important;
+  }
+  .text {
+    font-size: 13px !important;
+    line-height: 20px !important;
+  }
+  .minor_text{
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .text_table{
+    font-size: 13px;
+    line-height: 15px;
+  }
+  #control,
+  #additional,
+  #certification,#climate,
+  #mechanical{
+  .card-link{
+    font-size: 13px !important;
+    line-height: 15px !important;
+    }
+  }
+  #services_laboratory li {
+    padding-top: 0 !important;
+  }
+  .list{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .line_pictures {
+    flex-direction: column;
+
+    .column_1, .column_2{
+      width: 100%;
+    }
+    .column_1 .col{
+      max-width: 32%;
+      margin-bottom: 1%;
+    }
+    .column_2 .col{
+      max-width: 48.5%;
+    }
+  }
+  #services_laboratory h5 {
+    height: 15px;
+  }
+  #certification li {
+    padding: 5px !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
+  }
+  #place_for_activities{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #certification li{
+    margin-right: 0 !important;
+  }
+  .flex_backwards{
+    flex-direction: column;
+    .col-8,.col-9,.col-6,.col-7{
+      max-width: 100%;
+      flex:0 0 auto !important;
+    }
+    .equipment{
+      width: 25% !important;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .complex{
+      width: 65% !important;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  .equipment,.img_carousel,.complex{
+    flex:0 0 auto !important;
+  }
+  .flex {
+    flex-direction: column-reverse;
+    align-items: center;
+    .img_carousel {
+      max-width: 100% !important;
+      padding-bottom: 2%;
+    }
+    .col-7{
+      max-width: 100% !important;
+      flex:0 0 auto !important;
+    }
+  }
+  #services_laboratory ul{
+    padding-inline-start: 10px !important;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+  }
+  .equipment:hover .name_equipment{
+    display:none !important;
+  }
+}
+@media screen and (min-width: 500px)and (max-width: 768px) {
+  .services{
+    flex: 0 0 auto !important;
+  }
+  #services_laboratory{
+    .col-6,.row_list .col{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      flex: 0 0 auto !important;
+    }
+  }
+  #control_tests,
+  #additional_tests, #certification_tests ,
+  #climate_tests,
+  #mechanical_tests{
+    .col,.col-7{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+  #control,#additional,#climate,#mechanical{
+    .col,.col-7{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    .col{
+      max-width: 70% !important;
+    }
+  }
+  #certification{
+    .col-5{
+      max-width: 70% !important;
+    }
+  }
+  #services_laboratory li {
+    padding-top: 0 !important;
+  }
+  .h2, h2 {
+    font-size: 1.5rem !important;
+  }
+  #control_tests,
+  #additional_tests, #certification_tests ,
+  #climate_tests,
+  #mechanical_tests{
+    padding-top: 15%;
+    padding-bottom: 12%;
+  }
+  #control h2, #additional h2,
+  #certification h2,#climate h2,
+  #mechanical h2{
+    padding-top: 12%;
+  }
+  #control_tests,#additional_tests,#certification_tests,#climate_tests,#mechanical_tests{
+    h2{
+      margin-top: 0 !important;
+      padding-top: 3%;
+    }
+  }
+  #about_laboratory{
+    h2{
+      padding-top: 0 !important;
+    }
+  }
+  .h3, h3 {
+    font-size: 1rem !important;
+  }
+  .h4, h4 {
+    font-size: 1rem !important;
+  }
+  .h5, h5 {
+    font-size: .7rem !important;
+  }
+  .text{
+    font-size: 13px !important;
+    line-height:20px !important;
+  }
+  .minor_text{
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .text_table{
+    font-size: 13px;
+    line-height: 15px;
+  }
+  #control,
+  #additional,
+  #certification,#climate,
+  #mechanical{
+  .card-link{
+    font-size: 13px !important;
+    line-height: 15px !important;
+    }
+  }
+  .line_pictures {
+    flex-direction: column;
+
+    .column_1, .column_2{
+      width: 100%;
+    }
+    .column_1 .col{
+      max-width: 32%;
+      margin-bottom: 1%;
+    }
+    .column_2 .col{
+      max-width: 48.5%;
+    }
+  }
+  #services_laboratory h5 {
+    height: 40px;
+  }
+  .list{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  #certification li {
+    font-size: 13px !important;
+    line-height:20px !important;
+    padding: 5px !important;
+  }
+  #place_for_activities{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #certification li{
+    margin-right: 0 !important;
+  }
+  .flex_backwards{
+    flex-direction: column;
+    .col-8,.col-9,.col-6,.col-7{
+      max-width: 100%;
+      flex:0 0 auto !important;
+    }
+    .equipment{
+      width: 25% !important;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .complex{
+      width: 65% !important;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  .equipment,.img_carousel,.complex{
+    flex:0 0 auto !important;
+  }
+  .flex {
+    flex-direction: column-reverse;
+    align-items: center;
+
+    .img_carousel {
+      padding-bottom: 2%;
+    }
+    .col-7{
+      max-width: 100% !important;
+      flex:0 0 auto !important;
+    }
+  }
+  #services_laboratory ul{
+    padding-inline-start: 7px !important;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+  }
+  .equipment:hover .name_equipment{
+    display:none !important;
+  }
+}
+@media screen and (min-width: 768px)and (max-width: 992px) {
+  .services{
+    flex: 0 0 auto !important;
+  }
+  #services_laboratory{
+    .col-6,.row_list .col{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      flex: 0 0 auto !important;
+    }
+  }
+  #control_tests,
+  #additional_tests, #certification_tests ,
+  #climate_tests,
+  #mechanical_tests{
+    .col,.col-7{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      flex: 0 0 auto !important;
+    }
+  }
+  #control,#additional,#climate,#mechanical{
+    .col,.col-7{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    .col{
+      max-width: 70% !important;
+    }
+  }
+  #certification{
+    .col-5{
+      max-width: 70% !important;
+    }
+  }
+  #services_laboratory li {
+    padding-top: 0 !important;
+  }
+  .h2, h2 {
+    font-size: 1.8rem !important;
+  }
+  #control_tests,
+  #additional_tests, #certification_tests,
+  #climate_tests,
+  #mechanical_tests{
+    padding-top: 14%;
+    padding-bottom: 8%;
+  }
+  #control h2,
+  #additional h2,
+  #certification h2,#climate h2,
+  #mechanical h2{
+    padding-top: 8%;
+  }
+  #control_tests,#additional_tests,#certification_tests,#climate_tests,#mechanical_tests{
+    h2{
+      margin-top: 0;
+      padding-top: 3%;
+    }
+  }
+  #about_laboratory{
+    h2{
+      padding-top: 0 !important;
+    }
+  }
+  .h3, h3 {
+    font-size: 1.2rem !important;
+  }
+  .h4, h4 {
+    font-size: 1.2rem !important;
+  }
+  .h5, h5 {
+    font-size: 1.2rem !important;
+  }
+  .text {
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+  .minor_text{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .text_table{
+    font-size: 15px;
+    line-height: 18px;
+  }
+  #control,
+  #additional,
+  #certification,#climate,
+  #mechanical {
+    .card-link {
+      font-size: 15px !important;
+      line-height: 20px !important;
+    }
+  }
+  .line_pictures {
+    flex-direction: column;
+    .column_1, .column_2{
+      width: 100%;
+    }
+    .column_1 .col{
+      max-width: 32%;
+      margin-bottom: 1%;
+    }
+    .column_2 .col{
+      max-width: 48.5%;
+    }
+  }
+  #services_laboratory h5 {
+    height: 40px;
+  }
+  .list{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  #certification li {
+    font-size: 15px !important;
+    line-height: 25px !important;
+    padding: 7px !important;
+  }
+  #place_for_activities{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #certification li{
+    margin-right: 0 !important;
+  }
+  .flex_backwards{
+    flex-direction: column;
+    .col-8,.col-9,.col-6,.col-7{
+      max-width: 100%;
+      flex:0 0 auto !important;
+    }
+    .equipment{
+      width: 25% !important;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .complex{
+      width: 55% !important;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  .equipment,.img_carousel,.complex{
+    flex:0 0 auto !important;
+  }
+  .flex {
+    flex-direction: column-reverse;
+    align-items: center;
+
+    .img_carousel {
+      padding-bottom: 2%;
+    }
+    .col-7{
+      max-width: 100% !important;
+      flex:0 0 auto !important;
+    }
+  }
+  #services_laboratory ul{
+    padding-inline-start: 15px !important;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+  }
+  .equipment:hover .name_equipment{
+    display:none !important;
+  }
+}
+@media screen and (min-width: 992px)and (max-width: 1200px) {
+  #control_tests,
+  #additional_tests, #certification_tests ,
+  #climate_tests,
+  #mechanical_tests{
+    .col,.col-7{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      flex: 0 0 auto !important;
+    }
+    .col{
+      max-width: 70% !important;
+    }
+  }
+  .services{
+    flex: 0 0 auto !important;
+  }
+  #services_laboratory{
+    .col-6,.row_list .col{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      flex: 0 0 auto !important;
+    }
+  }
+  #certification{
+    .col-5{
+      max-width: 70% !important;
+    }
+  }
+  #services_laboratory li {
+    padding-top: 0 !important;
+  }
+  .h2, h2 {
+    font-size: 1.8rem !important;
+  }
+  #control_tests,
+  #additional_tests, #certification_tests,
+  #climate_tests,
+  #mechanical_tests{
+    padding-top: 9%;
+    padding-bottom: 6%;
+  }
+  #control h2,#additional h2,
+  #certification h2,#climate h2,
+  #mechanical h2{
+    padding-top: 6%;
+  }
+  #control_tests h2,
+  #additional_tests h2, #certification_tests h2,
+  #climate_tests h2,
+  #mechanical_tests h2{
+    margin-top: 0;
+    padding-top: 3%;
+  }
+  #about_laboratory{
+    h2{
+      padding-top: 0 !important;
+    }
+  }
+  .h3, h3 {
+    font-size: 1.2rem !important;
+  }
+  .h4, h4 {
+    font-size: 1.2rem !important;
+  }
+  .h5, h5 {
+    font-size: 1.2rem !important;
+  }
+  .text {
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+  .minor_text{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .text_table{
+    font-size: 15px;
+    line-height: 18px;
+  }
+  #control,
+  #additional,
+  #certification,#climate,
+  #mechanical {
+    .card-link {
+      font-size: 15px !important;
+      line-height: 20px !important;
+    }
+  }
+  .list{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  #place_for_activities{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #certification li{
+    font-size: 15px !important;
+    line-height: 25px !important;
+    margin-right: 0 !important;
+  }
+  .flex_backwards{
+    flex-direction: column;
+    .col-8,.col-9,.col-6,.col-7{
+      max-width: 100%;
+      flex:0 0 auto !important;
+    }
+    .equipment{
+      width: 25% !important;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .complex{
+      width: 55% !important;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  .equipment,.img_carousel,.complex{
+    flex:0 0 auto !important;
+  }
+  .flex {
+    flex-direction: column-reverse;
+    align-items: center;
+
+    .img_carousel {
+      padding-bottom: 2%;
+    }
+    .col-7{
+      max-width: 100% !important;
+      flex:0 0 auto !important;
+    }
+  }
+  #services_laboratory ul{
+    padding-inline-start: 15px !important;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+  }
+  .line_pictures {
+    flex-direction: column;
+    .column_1, .column_2 {
+      width: 100%;
+    }
+    .column_1 .col{
+      max-width: 32%;
+      margin-bottom: 1%;
+    }
+    .column_2 .col{
+      max-width: 48.5%;
+    }
+  }
+  #services_laboratory h5 {
+    height: 40px;
+  }
+}
+@media screen and (max-height: 870px) and (orientation: landscape) {
+  #services_laboratory h3{
+    margin-bottom: .1rem;
+  }
+  #services_laboratory .text{
+    padding-bottom: 0 !important;
+  }
+}
+@media screen and (max-height: 870px){
+  #services_laboratory li {
+    padding-top: .4% !important;
+  }
+  .row_list{
+    flex-direction: column;
+    .col{
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+    #services_laboratory, #certification{
+      ul{
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1200px)and (max-width: 1600px) {
+  #services_laboratory li {
+    padding-top: 0 !important;
+  }
+  .h2, h2 {
+    font-size: 1.8rem !important;
+  }
+  #control_tests h2,
+  #additional_tests h2, #certification_tests h2,
+  #climate_tests h2,
+  #mechanical_tests h2{
+    margin-top: 0;
+    padding-top: 0;
+  }
+  #control h2,#additional h2,
+  #certification h2,#climate h2,
+  #mechanical h2{
+    padding-top: 5%;
+  }
+  .h3, h3 {
+    font-size: 1.2rem !important;
+  }
+  .h4, h4 {
+    font-size: 1.2rem !important;
+  }
+  .h5, h5 {
+    font-size: .95rem !important;
+  }
+  .text {
+    font-size: 18px !important;
+    line-height: 30px !important;
+  }
+  #services_laboratory h5 {
+    height: 40px;
+  }
+  .minor_text{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .text_table{
+    font-size: 16px;
+    line-height: 18px;
+  }
+  #control,
+  #additional,
+  #certification,#climate,
+  #mechanical {
+    .card-link {
+      font-size: 18px !important;
+      line-height: 25px !important;
+    }
+  }
+  #certification li {
+    font-size: 18px !important;
+    line-height: 30px !important;
+    padding: 7px !important;
+  }
+}
+@media screen and (min-width: 1200px){
+  #services_laboratory{
+   .row_list ul{
+      margin-left: -75px
+    }
+    .row_list li{
+      letter-spacing: -.8px;
+    }
+  }
+  #certification{
+    li{
+      height: 100px;
+    }
+  }
+  .container-fluid td:nth-child(2), .container-fluid td:nth-child(4) {
+    min-width: 180px;
+  }
+  #equipment_3{
+    .card-body{
+      min-height: 290px;
+    }
+  }
+
+}
+@media screen and (max-width: 1200px){
+  #equipment_3{
+    display: none;
+  }
+  #equipment_5{
+    display: block;
+  }
+
+  #services_laboratory{
+    .row_list{
+      .col-6{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+    }
+  }
+  #certification{
+    ul{
+      padding-top: 0;
+    }
+  }
+}

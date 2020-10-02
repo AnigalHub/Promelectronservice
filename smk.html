@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Система менеджмента качества</title>
+    <meta name="keywords" content="Система менеджмента качества,ГОСТ Р ИСО 9001-2015, ГОСТ РВ 0015-002-2012,ЭС РД 09-2014,
+     ЭС РД 010-2015, Промтехносерт, Электронсерт, улучшения результативности системы менеджмента качества,процессный подход,требования системы менеджмента качества,
+     Мероприятия организации по постоянному улучшению системы менеджмента качества,Применение системы менеджмента качества,мониторинг,
+     СМК,Система менеджмента качества организации">
+    <meta name="description" content="Система менеджмента качества организации разработана, задокументирована, внедрена, поддерживается в рабочем состоянии
+    и соответствует требованиям ГОСТ Р ИСО 9001-2015, ГОСТ РВ 0015-002-2012, ЭС РД 09-2014, ЭС РД 010-2015, что подтверждается
+    сертификатом соответствия, выданным Органом по сертификации систем менеджмента качества
+    Автономной некоммерческой организацией Центр испытаний и сертификации «Промтехносерт»">
+    <meta name="google-site-verification" content="ISWB9i6v-fFkxR9daZV_-CSr2DpE9TkkTFlV8nxj12s" />
+    <meta name="yandex-verification" content="f979cca0edfd843a" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles_header/style.min.css">
+    <link rel="stylesheet" href="styles_footer/style.min.css">
+    <link rel="stylesheet" href="styles_smk/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="image/favicon.jpg" type="image/jpg">
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+<nav class="navbar navbar-expand-xl  navbar-dark sticky-top ">
+    <div class="container">
+        <a href="index.html" class="navbar-brand">
+            <div class="wrap">
+                <div class="earth">
+                </div>
+            </div>
+            <div class="title_1">
+                Промэлектронсервис
+            </div>
+            <div class="title_2">
+                COMPANY
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" onclick="openbox('Nav')" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link hover_effect" href="company.html">О компании</a>
+                    <a class="dropdown-toggle" id="navbarDropdown2" data-toggle="dropdown"></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <div class="container">
+                            <div class="row subparagraphs company">
+                                <div class="col">
+                                    <div class="submenu_item">
+                                        <a href="company.html"> Документы</a>
+                                    </div>
+                                    <div class="submenu_item">
+                                        <a href="company.html#activity_company"> Основные направления деятельности</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link hover_effect" href="ispytatelnaya-laboratoriay.html">Лаборатория</a>
+                    <a class="dropdown-toggle" id="navbarDropdown1" data-toggle="dropdown"></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <div class="container">
+                            <div class="row subparagraphs laboratory">
+                                <div class="col">
+                                    <div class="submenu_item">
+                                        <a href="ispytatelnaya-laboratoriay.html#services_laboratory">Услуги лаборатории</a>
+                                    </div>
+                                    <div class="submenu_item">
+                                        <a href="ispytatelnaya-laboratoriay.html#control_tests">Входной контроль</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="submenu_item">
+                                        <a href="ispytatelnaya-laboratoriay.html#additional_tests">Дополнительные испытания</a>
+                                    </div>
+                                    <div class="submenu_item">
+                                        <a href="ispytatelnaya-laboratoriay.html#certification_tests">Сертификационные испытания</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="submenu_item">
+                                        <a href="ispytatelnaya-laboratoriay.html#climate_tests">Климатические испытания</a>
+                                    </div>
+                                    <div class="submenu_item">
+                                        <a href="ispytatelnaya-laboratoriay.html#mechanical_tests">Механические испытания</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link hover_effect" href="postavka-ekb.html">Поставка ЭКБ и КИ</a>
+                    <a class="dropdown-toggle" id="navbarDropdown3" data-toggle="dropdown"></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                        <div class="container">
+                            <div  class="row subparagraphs delivery">
+
+                                <div class="col">
+                                    <div class="submenu_item">
+                                        <a href="postavka-ekb.html#PCB_materials">Материалы для печатных плат</a>
+                                    </div>
+                                    <div class="submenu_item">
+                                        <a href="postavka-ekb.html#domestic_ECB">ЭКБ и КИ отечественного производства</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="submenu_item">
+                                        <a href="postavka-ekb.html#foreign_ECB">ЭКБ и КИ иностранного производства</a>
+                                    </div>
+                                    <div class="submenu_item">
+                                        <a href="postavka-ekb.html#ECB_supply_program">Программа поставок ЭКБ и КИ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link hover_effect" href="it-resheniya.html">ИТ-Решения</a>
+                    <a class="dropdown-toggle" id="navbarDropdown4" data-toggle="dropdown"></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                        <div class="container">
+                            <div  class="row subparagraphs it">
+                                <div class="col">
+                                    <div class="submenu_item">
+                                        <a href="it-resheniya.html#range_services">Комплекс услуг</a>
+                                    </div>
+                                    <div class="submenu_item">
+                                        <a href="it-resheniya.html#equipment_supplied">Поставляемое оборудование</a>
+                                    </div>
+                                </div>
+                                <div class="col submenu_item" >
+                                    <a href="it-resheniya.html#company_guarantee">Гарантии</a>
+                                    <br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link hover_effect" href="smk.html">Система менеджмента качества</a>
+                    <a class="dropdown-toggle" id="navbarDropdown6" data-toggle="dropdown"></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown6">
+                        <div class="container">
+                            <div  class="row subparagraphs smk">
+                                <div class="col">
+                                    <div class="submenu_item">
+                                        <a href="smk.html#application_smk">Применение системы менеджмента качества</a>
+                                    </div>
+                                    <div  class="submenu_item">
+                                        <a href="smk.html#events_smk">Мероприятия по улучшению системы менеджмента качества</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item hover_effect without_dropdown">
+                    <a href="news.html" class="nav-link  hover_effect">Новости</a>
+                </li>
+                <li class="nav-item hover_effect without_dropdown">
+                    <a href="contacts.html" class="nav-link  hover_effect">Контакты</a>
+                </li>
+            </ul>
+            <div class="dropdown place_for_button_search_1">
+                <button type="button" class="btn search" id="navbarDropdown5">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                         width="24" height="24"
+                         viewBox="0 0 172 172"
+                         style="fill:#ffffff;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M72.24,10.32c-32.33062,0 -58.48,26.14938 -58.48,58.48c0,32.33063 26.14938,58.48 58.48,58.48c11.54281,0 22.22563,-3.38625 31.2825,-9.1375l42.2475,42.2475l14.62,-14.62l-41.71,-41.6025c7.49813,-9.83625 12.04,-22.02406 12.04,-35.3675c0,-32.33062 -26.14937,-58.48 -58.48,-58.48zM72.24,24.08c24.76531,0 44.72,19.95469 44.72,44.72c0,24.76531 -19.95469,44.72 -44.72,44.72c-24.76531,0 -44.72,-19.95469 -44.72,-44.72c0,-24.76531 19.95469,-44.72 44.72,-44.72z"></path></g></g>
+                    </svg>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                        <div class="gcse-search"></div>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div id="Nav" class="overlay">
+            <div class="overlay-content">
+                <div id="accordion" >
+                    <div class="card">
+                        <div class="card-header collapsed card-link" data-toggle="collapse" href="#company">
+                            <a>О компании</a>
+                        </div>
+                        <div id="company" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li class="submenu_item" >
+                                        <a href="company.html">О компании</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="company.html"> Документы</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="company.html#activity_company"> Основные направления деятельности</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header collapsed card-link" data-toggle="collapse" href="#lab">
+                            <a>Лаборатория</a>
+                        </div>
+                        <div id="lab" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li class="submenu_item">
+                                        <a href="ispytatelnaya-laboratoriay.html">Лаборатория</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="ispytatelnaya-laboratoriay.html">Услуги лаборатории</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="ispytatelnaya-laboratoriay.html#control_tests">Входной контроль</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="ispytatelnaya-laboratoriay.html#additional_tests">Дополнительные испытания</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="ispytatelnaya-laboratoriay.html#certification_tests">Сертификационные испытания</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="ispytatelnaya-laboratoriay.html#climate_tests">Климатические испытания</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="ispytatelnaya-laboratoriay.html#mechanical_tests">Механические испытания</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header collapsed card-link" data-toggle="collapse" href="#ecb">
+                            <a>Поставка ЭКБ</a>
+                        </div>
+                        <div id="ecb" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li class="submenu_item">
+                                        <a href="postavka-ekb.html">Поставка ЭКБ</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="postavka-ekb.html#PCB_materials">Материалы для печатных плат</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="postavka-ekb.html#domestic_ECB">ЭКБ отечественного производства</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="postavka-ekb.html#foreign_ECB">ЭКБ иностранного производства</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="postavka-ekb.html#ECB_supply_program">Программа поставок ЭКБ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header collapsed card-link" data-toggle="collapse" href="#it">
+                            <a>ИТ-Решения</a>
+                        </div>
+                        <div id="it" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li class="submenu_item">
+                                        <a href="it-resheniya.html">ИТ-Решения</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="it-resheniya.html#range_services">Комплекс услуг</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="it-resheniya.html#equipment_supplied">Поставляемое оборудование</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="it-resheniya.html#company_guarantee">Гарантии</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header collapsed card-link" data-toggle="collapse" href="#cmk">
+                            <a>Система менеджмента качества</a>
+                        </div>
+                        <div id="cmk" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li class="submenu_item">
+                                        <a href="smk.html">Система менеджмента качества</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="#application_smk" onclick="openbox('Nav')">Применение системы менеджмента качества</a>
+                                    </li>
+                                    <li class="submenu_item">
+                                        <a href="#events_smk" onclick="openbox('Nav')">Мероприятия по улучшению системы менеджмента качества</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header card-link" data-toggle="collapse" href="news.html">
+                            <a href="news.html">
+                                Новости
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header card-link" data-toggle="collapse" href="contacts.html">
+                            <a href="contacts.html">
+                                Контакты
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="place_for_button_search_2">
+                    <div class="gcse-search"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<a id="back_to_top_button"></a>
+<div class="container-fluid">
+    <div id="about_smk" >
+        <div class="container">
+            <h2>Система менеджмента качества организации </h2>
+            <div class="row flex">
+                <div class="col-8 principles">
+                    <div class="text">
+                        Система менеджмента качества организации разработана, задокументирована, внедрена, поддерживается в рабочем состоянии
+                        и соответствует требованиям ГОСТ Р ИСО 9001-2015, ГОСТ РВ 0015-002-2012, ЭС РД 09-2014, ЭС РД 010-2015, что подтверждается
+                        сертификатом соответствия, выданным Органом по сертификации систем менеджмента качества
+                        Автономной некоммерческой организацией "Центр испытаний и сертификации "Промтехносерт" (СДС "Электронсерт").
+                    </div>
+                    <table>
+                        <tr>
+                            <td class="text">Основные принципы системы менеджмента организации:</td>
+                        </tr>
+                        <tr>
+                            <td class="first text">Ориентация на потребителя</td>
+                        </tr>
+                        <tr>
+                            <td class="second text">Лидерство</td>
+                        </tr>
+                        <tr>
+                            <td class="third text">Взаимодействие людей</td>
+                        </tr>
+                        <tr>
+                            <td class="fourth text">Процессный подход</td>
+                        </tr>
+                        <tr>
+                            <td class="fifth text"> Улучшение</td>
+                        </tr>
+                        <tr>
+                            <td class="sixth text">Принятие решений, основанных на свидетельствах</td>
+                        </tr>
+                        <tr>
+                            <td class="seventh text">Менеджмент взаимоотношений</td>
+                        </tr>
+                    </table>
+                    <div class="place_for_imgall">
+                        <div class="col">
+                            <div><img src="image/company/guests/iso90.png" alt="гост р исо"></div>
+                            <p class="name_img">ГОСТ Р ИСО 9001-2015</p>
+                        </div>
+                        <div class="col">
+                            <div><img src="image/company/guests/vvt2.png" alt="гост рв"></div>
+                            <p class="name_img">ГОСТ РВ 0015-002-2012</p>
+                        </div>
+                        <div class="col">
+                            <div><img src="image/company/guests/es2.png" alt="сдс электронсерт"></div>
+                            <p class="name_img">СДС "Электронсерт"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col place_for_certificate">
+                    <div class="image_certificate" data-toggle="modal" data-target="#myModal">
+                        <img src="image/sertificate/сертификат_соответствия.jpg" alt="сертификат">
+                    </div>
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <img src="image/sertificate/сертификат_соответствия.jpg" alt="сертификат">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="open_link">
+                        <a class="text" href="document/Сертификат.pdf" download>
+                            Посмотреть "Сертификат Соответствия"
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="application_smk">
+        <div class="container">
+            <h2>Применение системы менеджмента качества</h2>
+            <div class="text">В целях улучшения результативности системы менеджмента качества, повышения удовлетворенности потребителей,
+                путем выполнения их требований,
+                при разработке и внедрении системы менеджмента качества в организации был применен «процессный подход», что позволило:
+            </div>
+            <div class="row flex text">
+                <div class="col">
+                    <ul>
+                        <li> Рассматривать процессы с точки зрения добавления им ценности;</li>
+                        <li> Понимать и постоянно выполнять требования;</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li> Достигнуть результативного функционирования процессов;</li>
+                        <li> Улучшить процессы на основе оценивания данных и информации.</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <figure class="fi-chart">
+                    <div class="chart-wrap">
+                        <div class="chart-container">
+                            <div class="chart">
+                                <div class="circle fill sanity">
+                                    <div class="circle spacer">
+                                        <div class="circle fill balls">
+                                            <span class="line vert"></span>
+                                            <span class="line iso"></span>
+                                            <span class="line iso rev"></span>
+                                            <div class="circle spacer">
+                                                <div class="circle fill tees remain">
+                                                    <span class="line vert"></span>
+                                                    <div class="circle spacer">
+                                                        <div class="circle fill glove">
+                                                            <div class="circle spacer center">
+                                                                <span class="text">Преимущества организации от применения СМК</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="options-contain">
+                        <div class="valign">
+                            <ul class="list-options">
+                                <li class="glove text"><span class="number one">1</span> Способность стабильно предоставлять продукцию и услуги, удовлетворяющие требованиям потребителей</li>
+                                <li class="tees text"><span class="number two">2</span> Создание возможностей для повышения удовлетворенности потребителей</li>
+                                <li class="balls text"><span class="number three">3</span> Направление усилий на риски и возможности, связанные со средой и целями организации</li>
+                                <li class="sanity text"><span class="number four">4</span> Возможность продемонстрировать соответствие установленным требованиям системы менеджмента качества</li>
+                            </ul>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div id="events_smk">
+        <div class="container">
+            <h2>Мероприятия организации по постоянному улучшению системы менеджмента качества</h2>
+            <div class="arrow-5 arrow-5-bottom text">
+                Определение процессов, необходимых для эффективного функционирования системы менеджмента качества
+            </div>
+            <div class="arrow-5 arrow-5-bottom text">
+                Определение последовательности и взаимодействия процессов
+            </div>
+            <div class="arrow-5 arrow-5-bottom text">
+                Определения критериев и методов обеспечения результативности при
+                осуществлении процессов и управления ими
+            </div>
+            <div class="arrow-5 arrow-5-bottom text">
+                Обеспечение наличия ресурсов и информации, необходимых для поддержания процессов и их мониторинга
+            </div>
+            <div class="arrow-5 arrow-5-bottom text">
+                Осуществление мониторинга, измерения и анализа качества
+            </div>
+            <div class="arrow-5 text">
+                Принятие мер, необходимых для достижения
+                запланированных результатов и постоянного улучшения качества процессов
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div class="name_category">
+                <div class="row flex_1">
+                    <div class="col part_1">
+                        <div class="row flex_2">
+                            <div class="col">
+                                <ul>
+                                    <li><a href="company.html">О компании</a></li>
+                                    <li><a href="company.html"> Документы</a></li>
+                                    <li><a href="company.html#activity_company">Основные направления деятельности</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li><a href="ispytatelnaya-laboratoriay.html">Лаборатория</a></li>
+                                    <li><a href="ispytatelnaya-laboratoriay.html#services_laboratory">Услуги лаборатории</a></li>
+                                    <li><a href="ispytatelnaya-laboratoriay.html#control_tests">Входной контроль</a></li>
+                                    <li><a href="ispytatelnaya-laboratoriay.html#additional_tests">Дополнительные испытания</a></li>
+                                    <li><a href="ispytatelnaya-laboratoriay.html#certification_tests">Сертификационные испытания</a></li>
+                                    <li><a href="ispytatelnaya-laboratoriay.html#climate_tests">Климатические испытания</a></li>
+                                    <li><a href="ispytatelnaya-laboratoriay.html#mechanical_tests">Механические испытания</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li><a href="postavka-ekb.html">Поставка ЭКБ и КИ</a></li>
+                                    <li><a href="postavka-ekb.html#PCB_materials">Материалы для печатных плат</a></li>
+                                    <li><a href="postavka-ekb.html#domestic_ECB">ЭКБ и КИ отечественного производства</a></li>
+                                    <li><a href="postavka-ekb.html#foreign_ECB">ЭКБ и КИ иностранного производства</a></li>
+                                    <li><a href="postavka-ekb.html#ECB_supply_program">Программа поставок ЭКБ и КИ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col part_1">
+                        <div class="row flex_2">
+                            <div class="col-4">
+                                <ul>
+                                    <li><a href="it-resheniya.html">ИТ-Решения</a></li>
+                                    <li><a href="it-resheniya.html#range_services">Комплекс услуг</a></li>
+                                    <li><a href="it-resheniya.html#equipment_supplied">Поставляемое оборудование</a></li>
+                                    <li><a href="it-resheniya.html#company_guarantee">Гарантии</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li><a href="smk.html">Система менеджмента качества</a></li>
+                                    <li><a href="smk.html#application_smk">Применение системы менеджмента качества</a></li>
+                                    <li><a href="smk.html#events_smk">Мероприятия по улучшению системы менеджмента качества</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li><a href="news.html">Новости</a></li>
+                                    <li><a href="contacts.html" id="contact">Контакты</a></li>
+                                    <li><a href="mailto:info@promelektronservis.ru" ><i class="fa fa-envelope-o" aria-hidden="true"></i>info@promelektronservis.ru</a></li>
+                                    <li><a><i class="fa fa-clock-o" aria-hidden="true"></i> Пн. – Чт.: с 9:00 до 17:00,<br> Пт.: с 9:00 до 16:00</a></li>
+                                    <li><a href="tel:+74997695137"><i class="fa fa-phone"></i>+7 (499) 769-51-37 </a>,<br><a href="tel:+74955035134"> +7 (495) 503-51-34 (факс)</a><br>,
+                                        <a href="tel:+74959131920">  +7 (495) 913-19-20(приемная секретаря)</a></li>
+                                    <li><a ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Московская область, г. Котельники,
+                                        Новорязанское шоссе 6, офис 1-2</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script async src="https://cse.google.com/cse.js?cx=007392964222196843780:icjntk4bcte"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js"></script>
+<script src="https://threejs.org/examples/js/exporters/GLTFExporter.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/2.2.0/topojson.js"></script>
+<script src="globe.js"></script>
+<script src="menu.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="back_to_top_button.js"></script>
+<script src="node_modules/stickyfilljs/dist/stickyfill.min.js"></script>
+<script src="connection_stickyfilljs.js"></script>
+<script src="mobile_menu.js"></script>
+</body>
+</html>

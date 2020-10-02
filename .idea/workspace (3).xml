@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3e444d1-7b33-46c8-bc68-4efc1868b80c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/company.html" beforeDir="false" afterPath="$PROJECT_DIR$/company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/company/activities/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/company/activities/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/company/activities/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/company/activities/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/image/company/activities/3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/company/activities/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/company/activities/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/company/activities/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/company/activities/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/company/activities/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/company/activities/реа.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/laboratory/dop_trials/diagnostic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/laboratory/dop_trials/electric.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/laboratory/dop_trials/markerovka.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/laboratory/dop_trials/otbrac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/laboratory/lab34.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/laboratory/lab34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/laboratory/vhodnoi_kontrol/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/laboratory/vhodnoi_kontrol/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/laboratory/vhodnoi_kontrol/identific.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/laboratory/vhodnoi_kontrol/marker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/laboratory/vhodnoi_kontrol/visyal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/postavka/3_category/plata.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ispytatelnaya-laboratoriay.html" beforeDir="false" afterPath="$PROJECT_DIR$/ispytatelnaya-laboratoriay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/it-resheniya.html" beforeDir="false" afterPath="$PROJECT_DIR$/it-resheniya.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postavka-ekb.html" beforeDir="false" afterPath="$PROJECT_DIR$/postavka-ekb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles2/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles2/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_company/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_company/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles_company/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_company/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles_company/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_contacts/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles_contacts/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_contacts/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles_contacts/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_contacts/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles_contacts/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_ekb/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles_ekb/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_ekb/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles_ekb/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_ekb/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles_ekb/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_footer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles_footer/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_footer/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles_footer/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_footer/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles_footer/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles_header/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_header/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles_header/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles_header/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_it/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles_it/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_it/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles_it/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_it/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles_it/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_lab/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles_lab/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_lab/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles_lab/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_lab/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles_lab/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_news/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles_news/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_news/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles_news/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles_news/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles_news/style.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Pug File" />
+        <option value="Sass File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Marvin Visions Variable</find>
+      <find>#e7e7e7;</find>
+      <find>comm</find>
+      <find>klimat</find>
+      <find>section10</find>
+      <find>8%</find>
+      <find>ins</find>
+      <find>активны</find>
+      <find>table</find>
+      <find>main</find>
+      <find>762</find>
+      <find>event</find>
+      <find>th</find>
+      <find>section2</find>
+      <find>fe</find>
+      <find>mess</find>
+      <find>feature</find>
+      <find>item:h</find>
+      <find>font</find>
+      <find>carousel-control-prev</find>
+      <find>25px</find>
+      <find>dt</find>
+      <find>demo</find>
+      <find>maki</find>
+      <find>768</find>
+      <find>font-s</find>
+      <find>TEXT</find>
+      <find>SECTION2</find>
+      <find>rgb</find>
+      <find>.list-options li:</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\n{</replace>
+      <replace>\n{\n</replace>
+      <replace>\n}\n</replace>
+      <replace>285</replace>
+      <replace>1.5%</replace>
+      <replace>1%</replace>
+      <replace>335</replace>
+      <replace>18%</replace>
+      <replace>300</replace>
+      <replace>17%</replace>
+      <replace>10%</replace>
+      <replace>200px</replace>
+      <replace>12%</replace>
+      <replace>190</replace>
+      <replace>13%</replace>
+      <replace>180px</replace>
+      <replace>17.5%</replace>
+      <replace>margin-left: 30%</replace>
+      <replace>350px</replace>
+      <replace>/;</replace>
+      <replace>\;\n</replace>
+      <replace>hover_effect</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YiCQ2USoDRxKXK28ldqSY1PX1O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3e444d1-7b33-46c8-bc68-4efc1868b80c" name="Default" comment="" />
+      <created>1578146358373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578146358373</updated>
+      <workItem from="1578146360132" duration="683000" />
+      <workItem from="1578147885376" duration="535000" />
+      <workItem from="1578148462886" duration="769000" />
+      <workItem from="1578178528886" duration="2454000" />
+      <workItem from="1578401587419" duration="5314000" />
+      <workItem from="1578552665857" duration="20519000" />
+      <workItem from="1578580564376" duration="30827000" />
+      <workItem from="1578696271841" duration="2750000" />
+      <workItem from="1578843287134" duration="12108000" />
+      <workItem from="1578858692749" duration="1563000" />
+      <workItem from="1578860295405" duration="26593000" />
+      <workItem from="1578924550066" duration="3456000" />
+      <workItem from="1578928784410" duration="808000" />
+      <workItem from="1578984190202" duration="5451000" />
+      <workItem from="1578989729096" duration="16186000" />
+      <workItem from="1579007381527" duration="8269000" />
+      <workItem from="1579071987379" duration="21265000" />
+      <workItem from="1579097496806" duration="2316000" />
+      <workItem from="1579157145439" duration="11816000" />
+      <workItem from="1579169184791" duration="36086000" />
+      <workItem from="1579440334228" duration="10021000" />
+      <workItem from="1579455833669" duration="2495000" />
+      <workItem from="1579459529721" duration="687000" />
+      <workItem from="1579462793242" duration="10016000" />
+      <workItem from="1579502334745" duration="61204000" />
+      <workItem from="1579762083390" duration="17346000" />
+      <workItem from="1579783312559" duration="24580000" />
+      <workItem from="1579895122478" duration="3870000" />
+      <workItem from="1580044490426" duration="1858000" />
+      <workItem from="1580047238134" duration="6088000" />
+      <workItem from="1580057875004" duration="15879000" />
+      <workItem from="1580117374155" duration="76640000" />
+      <workItem from="1580453873673" duration="19594000" />
+      <workItem from="1580569599181" duration="6420000" />
+      <workItem from="1580581601680" duration="113054000" />
+      <workItem from="1581058928556" duration="19815000" />
+      <workItem from="1581163253246" duration="7689000" />
+      <workItem from="1581174388247" duration="80261000" />
+      <workItem from="1581591488348" duration="11102000" />
+      <workItem from="1581666668025" duration="89000" />
+      <workItem from="1581666910079" duration="336000" />
+      <workItem from="1581667664977" duration="14671000" />
+      <workItem from="1581923151348" duration="24745000" />
+      <workItem from="1582008850285" duration="18129000" />
+      <workItem from="1582027775417" duration="5845000" />
+      <workItem from="1582035162304" duration="25000" />
+      <workItem from="1582094849204" duration="2220000" />
+      <workItem from="1582098320214" duration="24002000" />
+      <workItem from="1582181586782" duration="13733000" />
+      <workItem from="1582197320536" duration="9754000" />
+      <workItem from="1582267437464" duration="23270000" />
+      <workItem from="1582559463716" duration="595000" />
+      <workItem from="1582567677170" duration="83340000" />
+      <workItem from="1582881965062" duration="2487000" />
+      <workItem from="1583135374498" duration="42340000" />
+      <workItem from="1583416011635" duration="57000" />
+      <workItem from="1583416115026" duration="112000" />
+      <workItem from="1583416229395" duration="252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="687" y="312" key="FileChooserDialogImpl" timestamp="1583416481951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="312" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583416481951" />
+    <state x="614" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1583416592699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="382" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583416592699" />
+  </component>
+</project>

@@ -1,0 +1,261 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+#news_company {
+  background: #fff;
+  max-height: 100%;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+#news_company img {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: default;
+}
+
+h2 {
+  color: #316082;
+  padding-top: 3%;
+  cursor: default;
+  padding-bottom: 1%;
+  font-weight: 600 !important;
+  text-align: center;
+  font-size: 23px;
+  font-family: "Exo 2", sans-serif;
+}
+
+span {
+  cursor: pointer;
+}
+
+i {
+  text-decoration: underline;
+}
+
+.tablink {
+  border: 1px solid #888888;
+  border-radius: 2px;
+  color: #000000;
+  float: left;
+  background: #dfdfdf;
+  box-shadow: 2px 0 0.2em #a8a8a8, -2px 0 0.2em #a8a8a8;
+  outline: none;
+  cursor: pointer;
+  padding: 0.8% 1.2%;
+  font-size: 20px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 500;
+  min-width: 25%;
+  width: auto;
+}
+
+.tablink:hover {
+  background-color: #f1f1f1;
+}
+
+.tabcontent {
+  color: black;
+  background: white;
+  display: none;
+}
+
+.paragraph {
+  max-height: 100%;
+  height: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom: 1.5px solid #c8c8c8;
+  border-left: 1.5px solid #c8c8c8;
+  border-right: 1.5px solid #c8c8c8;
+  cursor: default;
+}
+
+.paragraph:hover {
+  box-shadow: 5px 0 0.5em #a8a8a8, -5px 0 0.5em #a8a8a8;
+}
+
+.data {
+  font-size: 15px;
+  color: #858585;
+  font-weight: 900;
+  font-family: "Exo 2", sans-serif;
+}
+
+.name_news {
+  font-weight: 900;
+  font-size: 20px;
+  font-family: "Exo 2", sans-serif;
+  padding: 1.5% 0 0.8% 0;
+}
+
+.details {
+  padding-bottom: 1%;
+  cursor: default;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Exo 2", sans-serif;
+}
+
+@media screen and (max-width: 321px) {
+  .tablink {
+    min-width: 21.5% !important;
+    padding: 0.8% 0;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 371px) {
+  .tablink {
+    min-width: 23% !important;
+  }
+}
+@media screen and (min-width: 371px) and (max-width: 410px) {
+  .tablink {
+    min-width: 23.3% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .h2, h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .data {
+    font-size: 9px !important;
+  }
+
+  .name_news {
+    font-size: 13px !important;
+    line-height: 15px;
+  }
+
+  .details {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .tablink {
+    font-size: 13px;
+    min-width: 24.5%;
+    box-shadow: none;
+    padding: 0.8% 0;
+  }
+
+  #news_company .col-8 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
+  #news_company .col {
+    display: none;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .h2, h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .data {
+    font-size: 9px !important;
+  }
+
+  .name_news {
+    font-size: 13px !important;
+    line-height: 15px;
+  }
+
+  .details {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .tablink {
+    font-size: 13px;
+    min-width: 25%;
+    box-shadow: none;
+  }
+
+  #news_company .col-8 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
+  #news_company .col {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .h2, h2 {
+    font-size: 1.8rem !important;
+  }
+
+  .data {
+    font-size: 11px !important;
+  }
+
+  .name_news {
+    font-size: 15px !important;
+    line-height: 20px;
+  }
+
+  .details {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .tablink {
+    font-size: 15px;
+    min-width: 24.8%;
+    box-shadow: none;
+  }
+
+  #news_company .col-8 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
+  #news_company .col {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1600px) {
+  .h2, h2 {
+    font-size: 1.8rem !important;
+  }
+
+  .data {
+    font-size: 13px !important;
+  }
+
+  .name_news {
+    font-size: 18px !important;
+    line-height: 25px;
+  }
+
+  .details {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .tablink {
+    font-size: 18px;
+    min-width: 25%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

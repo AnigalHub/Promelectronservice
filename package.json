@@ -1,0 +1,16 @@
+{
+  "name": "promelectron",
+  "version": "1.0.0",
+  "main": "globe_part_1.js",
+  "dependencies": {
+    "objectFitPolyfill": "^2.3.0",
+    "stickyfilljs": "^2.1.0"
+  },
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
